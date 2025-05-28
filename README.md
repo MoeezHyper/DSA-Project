@@ -2,25 +2,25 @@
 🚦Police Challan Management System
 
 🧠 Core Data Structures:
-o	BST (Binary Search Tree):
-o	Used to store and manage vehicle records efficiently.
-o	Enables fast insertion, deletion, and searching based on vehicle number plates.
-o	Stack:
-o	Used to generate and manage traffic challans (tickets) in LIFO (Last In, First Out) order.
-o	Ensures the most recent challans are handled first.
+•	BST (Binary Search Tree):
+•	Used to store and manage vehicle records efficiently.
+•	Enables fast insertion, deletion, and searching based on vehicle number plates.
+•	Stack:
+•	Used to generate and manage traffic challans (tickets) in LIFO (Last In, First Out) order.
+•	Ensures the most recent challans are handled first.
 
 💾 File Handling:
-o	Ensures persistent data storage for vehicle records, violation logs, and challans.
-o	Implements three file structures:
-o	Sequential File – For orderly vehicle/violation record storage.
-o	Indexed File – For quick lookups of specific data.
-o	Stack File – To maintain chronological order of challans.
+•	Ensures persistent data storage for vehicle records, violation logs, and challans.
+•	Implements three file structures:
+•	Sequential File – For orderly vehicle/violation record storage.
+•	Indexed File – For quick lookups of specific data.
+•	Stack File – To maintain chronological order of challans.
 
 🔐 Login System:
-o	Symmetric Encryption to securely store login credentials.
-o	Role-Based Access Control:
-o	Admin: Full system access (edit users, manage vehicles and challans).
-o	User: Restricted access (add cars, pay challans).
+•	Symmetric Encryption to securely store login credentials.
+•	Role-Based Access Control:
+•	Admin: Full system access (edit users, manage vehicles and challans).
+•	User: Restricted access (add cars, pay challans).
 
 📋 Functional Features:
 1.	Add Vehicle: Input vehicle details and insert into BST.
@@ -32,11 +32,11 @@ o	User: Restricted access (add cars, pay challans).
 7.	Data Persistence: All changes saved to files to ensure consistency between sessions.
 
 🧑‍💻 User Interface:
-o	Menu-driven console UI for easy navigation and functionality access.
-o	Designed for both traffic authorities and public users.
+•	Menu-driven console UI for easy navigation and functionality access.
+•	Designed for both traffic authorities and public users.
 
 📌 Technologies Used:
-o	Language: C/C++
-o	Data Structures: BST, Stack
-o	File Handling: Text/binary file operations
-o	Encryption: Symmetric key-based for login details
+•	Language: C/C++
+•	Data Structures: BST, Stack
+•	File Handling: Text/binary file operations
+•	Encryption: Symmetric key-based for login details
