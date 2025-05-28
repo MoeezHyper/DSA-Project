@@ -2,12 +2,13 @@
 🚦Police Challan Management System
 
 🧠 Core Data Structures:
-•	BST (Binary Search Tree):
+1. BST (Binary Search Tree):
 •	Used to store and manage vehicle records efficiently.
 •	Enables fast insertion, deletion, and searching based on vehicle number plates.
-•	Stack:
-•	Used to generate and manage traffic challans (tickets) in LIFO (Last In, First Out) order.
-•	Ensures the most recent challans are handled first.
+
+3. Stack:
+•Used to generate and manage traffic challans (tickets) in LIFO (Last In, First Out) order.
+•Ensures the most recent challans are handled first.
 
 💾 File Handling:
 •	Ensures persistent data storage for vehicle records, violation logs, and challans.
